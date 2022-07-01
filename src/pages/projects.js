@@ -44,14 +44,14 @@ const projectsList = [
     image: newMoon,
     slug: 'new-moon',
     tagline: 'The optimized dark theme for web development.',
-    url: 'https://taniarascia.github.io/new-moon',
+    url: 'https://richknowles.github.io/new-moon',
   },
   {
     name: 'Chip8',
     slug: 'chip8',
     tagline: 'A retro game emulator for three platforms.',
     image: chip8,
-    url: 'https://taniarascia.github.io/chip8',
+    url: 'https://richknowles.github.io/chip8',
     writeup: '/writing-an-emulator-in-javascript-chip8',
     description: `Chip8.js includes a CPU class that handles all the internal logic of
     the emulator, and individual classes written for interfacing with a
@@ -86,7 +86,7 @@ const projectsList = [
     slug: 'primitive',
     tagline: 'A front-end design toolkit for responsive web apps.',
     image: primitive,
-    url: 'https://taniarascia.github.io/primitive',
+    url: 'https://richknowles.github.io/primitive',
     description: ` I made my first websites in the late '90s, when HTML was written in
     uppercase, tables were using for creating layouts, and CSS didn't
     exist yet. When CSS came around I learned the most basic of float
@@ -104,10 +104,10 @@ const projectsList = [
   },
 
   {
-    name: 'tania.dev',
-    slug: 'taniarascia.com',
+    name: 'Rich.dev',
+    slug: 'richknowles.com',
     tagline: 'The source of this website.',
-    url: 'https://tania.dev',
+    url: 'https://richknowles.com',
     image: tr,
   },
   {
@@ -126,7 +126,7 @@ const projectsList = [
     name: 'Sokoban',
     slug: 'sokoban',
     tagline: 'A web-based Sokoban implementation.',
-    url: 'https://taniarascia.github.io/sokoban',
+    url: 'https://richknowles.github.io/sokoban',
     writeup: '/sokoban-game',
   },
 ]
@@ -137,7 +137,7 @@ export default function ProjectsIndex() {
   useEffect(() => {
     async function getStars() {
       const repos = await fetch(
-        'https://api.github.com/users/taniarascia/repos?per_page=100'
+        'https://api.github.com/rightontron/2022richknowles.comusers/richknowles/repos?per_page=100'
       )
 
       return repos.json()
@@ -161,7 +161,7 @@ export default function ProjectsIndex() {
             <h1>Projects</h1>
             <p className="description">
               A few highlights of my open-source projects. View them all{' '}
-              <a href="https://github.com/taniarascia">on GitHub</a>.
+              <a href="https://github.com/rightontron/2022richknowles.comrichknowles">on GitHub</a>.
             </p>
           </div>
         </header>
@@ -174,7 +174,7 @@ export default function ProjectsIndex() {
               <div className="links tags">
                 {project.writeup && <Link to={project.writeup}>Write-up</Link>}
                 <a
-                  href={`https://github.com/taniarascia/${project.slug}`}
+                  href={`https://github.com/rightontron/2022richknowles.comrichknowles/${project.slug}`}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -193,7 +193,7 @@ export default function ProjectsIndex() {
                     <img src={github} alt="Stargazers" />
                     <span>
                       <a
-                        href={`https://github.com/taniarascia/${project.slug}/stargazers`}
+                        href={`https://github.com/rightontron/2022richknowles.comrichknowles/${project.slug}/stargazers`}
                       >
                         {Number(
                           repos.find((repo) => repo.name === project.slug)

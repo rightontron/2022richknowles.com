@@ -13,7 +13,7 @@ export default function PageTemplate({ data }) {
   return (
     <>
       <Helmet
-        title={`${title === 'Tania Rascia' ? 'Resume' : title} | ${
+        title={`${title === 'Rich Knowles' ? 'Resume' : title} | ${
           config.siteTitle
         }`}
       />

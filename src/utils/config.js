@@ -1,6 +1,6 @@
 const config = {
-  siteTitle: 'Tania Rascia',
-  siteUrl: 'https://www.taniarascia.com',
+  siteTitle: 'Rich Knowles',
+  siteUrl: 'https://www.richknowles.com',
   siteLogo: '/logo.png',
   description:
     'Software engineer and open source creator. This is my digital garden.',

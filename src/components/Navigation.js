@@ -16,8 +16,8 @@ const mainNavItems = [
 ]
 
 const socialNavItems = [
-  { url: 'https://github.com/taniarascia', icon: github, label: 'GitHub' },
-  { url: 'https://twitter.com/taniarascia', icon: twitter, label: 'Twitter' },
+  { url: 'https://github.com/rightontron/2022richknowles.comrichknowles', icon: github, label: 'GitHub' },
+  { url: 'https://twitter.com/richknowles', icon: twitter, label: 'Twitter' },
 ]
 
 export const Navigation = ({ setCollapsed, onUpdateTheme, theme }) => {
@@ -34,7 +34,7 @@ export const Navigation = ({ setCollapsed, onUpdateTheme, theme }) => {
           </button>
 
           <Link to="/" className="brand">
-            <span>Tania Rascia</span>
+            <span>Rich Knowles</span>
           </Link>
         </nav>
         <div>

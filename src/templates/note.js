@@ -24,7 +24,7 @@ export default function NoteTemplate({ data }) {
             <h1>{title}</h1>
             <p>
               <div className="post-details">
-                Written by <Link to="/me">Tania Rascia</Link> on{' '}
+                Written by <Link to="/me">Rich Knowles</Link> on{' '}
                 <time>{date}</time>
               </div>
             </p>

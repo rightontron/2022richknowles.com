@@ -24,7 +24,7 @@ export default function WebsiteIndex({ data }) {
 
   useEffect(() => {
     async function getGithubAPI() {
-      const response = await fetch('https://api.github.com/users/taniarascia')
+      const response = await fetch('https://api.github.com/rightontron/2022richknowles.comusers/richknowles')
       const data = await response.json()
 
       return data
@@ -63,7 +63,7 @@ export default function WebsiteIndex({ data }) {
               </Link>
               {followers && (
                 <a
-                  href="https://github.com/taniarascia"
+                  href="https://github.com/rightontron/2022richknowles.comrichknowles"
                   target="_blank"
                   className="hero-button"
                   rel="noreferrer"
@@ -98,7 +98,7 @@ export default function WebsiteIndex({ data }) {
             </p>
             <p className="hero-buttons">
               <a
-                href="https://taniarascia.substack.com/subscribe"
+                href="https://richknowles.substack.com/subscribe"
                 className="button"
               >
                 Subscribe

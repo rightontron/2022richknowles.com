@@ -35,7 +35,7 @@ export default function PostTemplate({ data }) {
                   />
                 </div>
               )}
-              Written by <Link to="/me">Tania Rascia</Link> on{' '}
+              Written by <Link to="/me">Rich Knowles</Link> on{' '}
               <time>{date}</time>
             </div>
             <h1>{title}</h1>
