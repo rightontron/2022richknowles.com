@@ -1,0 +1,6 @@
+backend:
+  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+  branch: master # Branch to update
+  repo: rightontron/2022richknowles.com
+  base_url: owner_oauth
+  

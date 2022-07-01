@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Tania Rascia',
+    title: 'Rich Knowles',
     author: {
-      name: 'Tania Rascia',
+      name: 'Rich Knowles',
     },
     pathPrefix: '/',
-    siteUrl: 'https://www.taniarascia.com',
+    siteUrl: 'https://www.richknowles.com',
     description:
-      'Software engineer and open-source creator. This is my digital garden.',
-    feedUrl: 'https://www.taniarascia.com/rss.xml',
-    logo: 'https://www.taniarascia.com/logo.png',
+      'Senior Systems Engineer IV Specializing in VMware servers. I started coding in the 3rd grade, but a few years have since passed.',
+    feedUrl: 'https://www.richknowles.com/rss.xml',
+    logo: 'https://www.richknowles.com/logo.png',
   },
   plugins: [
     // ===================================================================================
@@ -21,10 +21,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Tania Rascia',
-        short_name: 'Tania Rascia',
+        name: 'Rich Knowles',
+        short_name: 'Rich Knowles',
         description:
-          'Software engineer and open source creator. This is my digital garden.',
+          'Senior Systems Engineer IV Specializing in VMware servers. I started coding in the 3rd grade, but a few years have since passed.',
         start_url: '/',
         background_color: 'white',
         theme_color: '#6b76f3',
@@ -58,7 +58,7 @@ module.exports = {
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [
                     { 'content:encoded': edge.node.html },
-                    { author: 'hello@taniarascia.com' },
+                    { author: 'hello@richknowles.com' },
                   ],
                 })
               })
@@ -88,7 +88,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Tania Rascia | RSS Feed',
+            title: 'Rich Knowles | RSS Feed',
           },
         ],
       },

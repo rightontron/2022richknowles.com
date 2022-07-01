@@ -1,9 +1,9 @@
 {
-  "name": "taniarascia.com",
+  "name": "richknowles.com",
   "private": true,
   "version": "5.0.0",
-  "description": "Tania Rascia's personal website.",
-  "author": "Tania Rascia",
+  "description": "Rich Knowles personal website.",
+  "author": "Rich Knowles",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taniarascia/taniarascia.com"
+    "url": "https://github.com/rightontron/2022richknowles.com"
   },
   "dependencies": {
     "gatsby": "^3.12.1",
